@@ -21,7 +21,7 @@ const StoreProvider = ({ children }) => {
 
 const TodoHeader = () => {
   const store = useContext(StoreContext);
-  return useObserver(() => <h1>{store.todoCount} de TODO</h1>);
+  return useObserver(() => <h1>{store.todoCount} TODOS</h1>);
 };
 
 const TodosList = () => {
